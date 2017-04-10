@@ -1,0 +1,11 @@
+{
+  "name": "auto package hash",
+  "version": "0.0.1",
+  "description": "读取分析package.php文件，解析其中的文件路径，将其中指向的文件做文件摘要并写在以文件版本号参数写在文件名后面 !",
+  "bin": {
+    "APH": "APH"
+  },
+  "dependencies": {
+    "md5-file": "^3.1.1"
+  }
+}
